@@ -128,7 +128,12 @@ function openPopup(type) {
   const text = {
     rangi: "⭐ RANGI<br><br>Admin<br>Moderator<br>VIP<br>Kotełek 😺",
     czlonkowie: "👥 CZŁONKOWIE<br><br>Gąsiewicz (GOAT)<br>Kotełek_01<br>Kotełek_02",
-    regulamin: "📜 REGULAMIN<br><br>1. Szanuj innych<br>2. Zero cheatów<br>3. Kochaj koty 🐱"
+    regulamin: `
+  📜 <b>REGULAMIN</b><br><br>
+  1. Obrażanie administracji → <b>przerwa 1 godz.</b><br>
+  2. Nadmierne spamienie lub przeklinanie → <b>przerwa 1 tydzień</b><br>
+  3. Hashtag <b>#STG</b> jest obowiązkowy w postach.<br><br>
+  Szanuj innych graczy i baw się dobrze! 🐱🎮"
   };
   document.getElementById("popupText").innerHTML = text[type];
   document.getElementById("popup").style.display = "block";
